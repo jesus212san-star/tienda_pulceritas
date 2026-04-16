@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pulseras Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <h1 class="logo">Pulseras Store</h1>
+    <ul class="menu">
+      <li>Inicio</li>
+      <li>Productos</li>
+      <li>Contacto</li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Diseños únicos para ti</h2>
+  <p>Descubre nuestras pulseras artesanales</p>
+  <button onclick="scrollToProducts()">Ver productos</button>
+</section>
+
+<section class="products" id="products">
+
+  <div class="card">
+    <img src="https://via.placeholder.com/200" alt="Pulsera 1">
+    <h3>Pulsera Elegante</h3>
+    <p>$120 MXN</p>
+    <button onclick="buy('Pulsera Elegante')">Comprar</button>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/200" alt="Pulsera 2">
+    <h3>Pulsera Casual</h3>
+    <p>$90 MXN</p>
+    <button onclick="buy('Pulsera Casual')">Comprar</button>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/200" alt="Pulsera 3">
+    <h3>Pulsera Premium</h3>
+    <p>$150 MXN</p>
+    <button onclick="buy('Pulsera Premium')">Comprar</button>
+  </div>
+
+</section>
+
+<footer>
+  <p>© 2026 Pulseras Store</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
